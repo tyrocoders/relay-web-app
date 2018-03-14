@@ -2,6 +2,8 @@
   "name": "relay-web-app",
   "productName": "Forsta Messenger",
   "version": "0.63.5",
+  "description:": "Secure communications inside and outside your organization",
+  "author": "Forsta Labs <support@forsta.io>",
   "engines": {
     "node": "8",
     "npm": "5"
@@ -24,6 +26,28 @@
   },
   "homepage": "https://github.com/forstalabs/relay-web-app",
   "main": "./electron/main.js",
+  "build": {
+    "mac": {
+      "title": "Forsta Messenger for macOS",
+      "icon": "./dist/static/images/app.icns",
+      "background": "./dist/static/images/thething.png",
+      "icon-size": 80,
+      "contents": [
+        {
+          "x": 448,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 192,
+          "y": 220,
+          "type": "file",
+          "path": "./dist/Forsta Messenger-darwin-x64/Forsta Messenger.app"
+        }
+      ]
+    }
+  },
   "dependencies": {
     "bower": "1.8.2",
     "emoji-datasource": "4.0.3",
@@ -43,6 +67,8 @@
   },
   "devDependencies": {
     "electron": "2.0.0-beta.2",
+    "electron-builder": "^20.4.1",
+    "electron-osx-sign": "^0.4.10",
     "electron-packager": "11.1.0",
     "eslint": "4.17.0",
     "grunt-contrib-watch": "1.0.0",
