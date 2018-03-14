@@ -147,6 +147,18 @@ electron-darwin:
 		--platform darwin \
 		--icon images/app.icns \
 		--out builds \
+		--appBundleId io.forsta.messenger \
+		$(ELECTRON_IGNORES)
+
+electron-darwin-signed:
+	$(NPATH)/electron-packager . \
+		--overwrite \
+		--platform darwin \
+		--icon images/app.icns \
+		--out builds \
+		--appBundleId io.forsta.messenger \
+		--app-category-type=public.app-category.business \
+		--osxSign.identity="THHR8L4QV3" \
 		$(ELECTRON_IGNORES)
 
 electron-linux:
