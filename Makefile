@@ -131,6 +131,7 @@ electron:
 		--overwrite \
 		--icon images/$$([ "$(shell uname)" == "Darwin" ] && echo app.icns || echo app.png) \
 		--out builds \
+		--appBundleId io.forsta.messenger \
 		$(ELECTRON_IGNORES)
 
 electron-win32:
@@ -148,6 +149,7 @@ electron-darwin:
 		--icon images/app.icns \
 		--out builds \
 		--appBundleId io.forsta.messenger \
+<<<<<<< HEAD
 		$(ELECTRON_IGNORES)
 
 electron-darwin-signed:
@@ -159,6 +161,8 @@ electron-darwin-signed:
 		--appBundleId io.forsta.messenger \
 		--app-category-type=public.app-category.business \
 		--osxSign.identity="THHR8L4QV3" \
+=======
+>>>>>>> master
 		$(ELECTRON_IGNORES)
 
 electron-linux:
