@@ -4,38 +4,7 @@
 @import 'sentry';
 @import 'avatar';
 
-header {
-    height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em 1em;
-
-    img.f-logo {
-        filter: invert(1);
-        width: 150px;
-    }
-
-    .center {
-        text-align: center;
-
-        > * {
-            color: #222;
-            padding: 0 1em;
-            transition: color 200ms;
-            font-size: 0.9em;
-            text-transform: uppercase;
-
-            &:active, &.active, &:hover {
-                color: #00AEEF;
-            }
-        }
-    }
-
-    .left, .right {
-        width: 150px;
-    }
-}
+/*-- ZR: Removed Header Styles --*/
 
 .error.message {
     display: block;
@@ -80,13 +49,17 @@ header {
 }
 
 main.ui.grid {
-    min-height: calc(100% - 6rem);
+
+    /*--ZR: (100% - 6rem) --*/
+    min-height: 100vh;
+    /*--ZR--*/
+
     padding: 1rem 0;
     margin: 0;
-    background-image: url(/@static/images/metal_backdrop_big.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
+
+    /*--ZR removed background, replaced with blue --*/
+    background-color: $blue;
+    /*--ZR--*/
 
     > .column {
         text-align: initial !important; // Undo centering of all content from centered grid css
@@ -105,20 +78,12 @@ main.ui.grid {
 
 .f-splash.column {
     position: relative;
-    background-color: black;
 
-    .backdrop {
-        transition: opacity 5s;
-        position: absolute;
-        z-index: 0;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        filter: grayscale(0.5) contrast(0.6) opacity(0.8) brightness(0.7);
-    }
+    /*--ZR changed to aaa from black--*/
+    background-color: #aaa;
+    /*--ZR--*/
+
+    /*--ZR removed backdrop class--*/
 
     .foreground {
         vertical-align: bottom;

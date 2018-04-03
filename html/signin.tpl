@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- ZR: changed Forsta to Initech. Removed Header. Replaced Forsta logo with Initech -->
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -6,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
 
-        <title>Sign In - Forsta</title>
+        <title>Sign In - Initech</title>
 
         <link rel="manifest" href="/@static/manifest.json?v={{version}}"/>
-        <link id="favicon" rel="shortcut icon" href="/@static/images/icon_256.png?v={{version}}"/>
+        <link id="favicon" rel="shortcut icon" href="/@static/images/initech.webp?v={{version}}"/>
         <link rel="stylesheet" type="text/css" href="/@static/semantic/semantic{{minify_ext}}.css?v={{version}}"/>
         <link rel="stylesheet" type="text/css" href="/@static/stylesheets/signin.css?v={{version}}"/>
 
@@ -22,21 +23,6 @@
     </head>
 
     <body>
-        <header class="not-small">
-            <div class="left">
-                <a href="https://forsta.io">
-                    <img class="f-logo" src="/@static/images/logo_just_text.svg"/>
-                </a>
-            </div>
-            <div class="center">
-                <a href="https://forsta.io/benefits">Benefits</a>
-                <a href="https://forsta.io/blog">Blog</a>
-                <a href="https://forsta.io/pricing">Pricing</a>
-                <a href="https://forsta.io/downloads">Downloads</a>
-                <span class="active">Sign in</span>
-            </div>
-            <div class="right"></div>
-        </header>
         <main class="ui grid middle aligned center aligned">
             <div class="column">
                 <div class="ui segment raised">
@@ -44,17 +30,13 @@
                         <div class="f-splash column">
                             <div class="backdrop"></div>
                             <div class="foreground">
-                                <img class="logo" src="/@static/images/logo_just_text.svg?v={{version}}"/>
+                                <img class="logo" src="/@static/images/initech.webp"/>
                                 <h3>Secure Messaging Platform</h3>
 
                                 <div class="filler not-small"></div>
 
                                 <p class="not-small"><b>You're almost there!</b></p>
-                                <p class="not-small">Select or enter your Forsta username on the right panel <i class="icon right arrow"></i> and then enter the SMS authorization code we send to you.</p>
-
-                                <div class="filler not-small"></div>
-
-                                <p class="not-small"><small>If your having trouble signing in or just want to talk to a human being <a href="https://forsta.zendesk.com/hc/en-us/requests/new" target="_blank">contact our support team</a>.</small></p>
+                                <p class="not-small">Select or enter your Initech username on the right panel <i class="icon right arrow"></i> and then enter the SMS authorization code we send to you.</p>
                             </div>
                         </div>
 
@@ -62,9 +44,9 @@
 
                             <div class="f-manual-username page">
                                 <h3 class="ui header">
-                                    <img src="/@static/images/icon_128.png?v={{version}}"/>
+                                    <img src="/@static/images/initech.webp"/>
                                     <div class="content">
-                                        Sign in to Forsta!
+                                        Sign in to Initech!
                                         <div class="sub header">
                                             <small>Enter your username and click Next to receive your SMS authorization code...</small>
                                         </div>
@@ -91,9 +73,9 @@
                                     <div class="ui loader"></div>
                                 </div>
                                 <h3 class="ui header">
-                                    <img src="/@static/images/icon_128.png?v={{version}}"/>
+                                    <img src="/@static/images/initech.webp"/>
                                     <div class="content">
-                                        Sign in to Forsta!
+                                        Sign in to Initech!
                                         <div class="sub header">
                                             <small>Select your user and click Next to receive your SMS authorization code...</small>
                                         </div>

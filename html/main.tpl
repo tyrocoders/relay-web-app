@@ -59,7 +59,7 @@
         </div>
 
         <header id="f-header-view">
-            <div class="ui menu inverted"></div>
+            <div class="ui menu"></div>
         </header>
 
         <main>
@@ -77,7 +77,7 @@
                     <i class="f-support icon doctor amber"><label>Talk with support</label></i>
                 </div>
 
-                <div class="ui basic segment inverted">
+                <div class="ui basic segment ">
                     <div id="f-new-thread-panel">
                         <div class="ui segment red">
                             <div class="f-header-menu ui menu borderless fitted attached">
@@ -110,7 +110,7 @@
                                     <div class="scrolling menu"></div>
                                 </div>
 
-                                <div class="ui dimmer inverted">
+                                <div class="ui dimmer ">
                                     <div class="ui loader"></div>
                                 </div>
                             </div>
