@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
 
-        <title>Forsta</title>
+        <title>Initech</title>
 
         <link rel="manifest" href="/@static/manifest.json?v={{version}}"/>
-        <link id="favicon" rel="shortcut icon" href="/@static/images/favicon.png?v={{version}}"/>
+        <link id="favicon" rel="shortcut icon" href="/@static/images/initech.webp"/>
         <link rel="stylesheet" type="text/css" href="https://cdn.quilljs.com/1.3.1/quill.snow.css"/>
         <link rel="stylesheet" type="text/css" href="/@static/semantic/semantic.min.css?v={{version}}"/>
         <link rel="stylesheet" type="text/css" href="/@static/stylesheets/main.css?v={{version}}"/>

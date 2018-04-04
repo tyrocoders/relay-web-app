@@ -10,7 +10,7 @@
         <title>Sign In - Initech</title>
 
         <link rel="manifest" href="/@static/manifest.json?v={{version}}"/>
-        <link id="favicon" rel="shortcut icon" href="/@static/images/initech.webp?v={{version}}"/>
+        <link id="favicon" rel="shortcut icon" href="/@static/images/initech.webp"/>
         <link rel="stylesheet" type="text/css" href="/@static/semantic/semantic{{minify_ext}}.css?v={{version}}"/>
         <link rel="stylesheet" type="text/css" href="/@static/stylesheets/signin.css?v={{version}}"/>
 
@@ -94,7 +94,7 @@
 
                             <div class="f-validate page">
                                 <h3 class="ui header">
-                                    <img src="/@static/images/icon_128.png?v={{version}}"/>
+                                    <img src="/@static/images/initech.webp"/>
                                     <div class="content">
                                         Validate this is you...
                                         <div class="sub header">
